@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_ll"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnProd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="@string/main_button1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOstat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:gravity="right|center_vertical|center_horizontal"
+            android:text="@string/main_button2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPrixod"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="@string/main_button3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRasxod"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:gravity="right|center_vertical|center_horizontal"
+            android:text="@string/main_button4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnKassa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="@string/main_button5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSettingSpr"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:gravity="right|center_vertical|center_horizontal"
+            android:text="@string/main_button6"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="@string/main_button7"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="2"
+            android:gravity="right|center_vertical|center_horizontal"
+            android:text="@string/main_button8"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/main_button_background"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">4Entepreneur</string>
+    <string name="main_button1">НАСТРОЙКА ДОСТУПА</string>
+    <string name="main_button2">ИНВЕНТАРИЗАЦИЯ</string>
+    <string name="main_button3">ПОСТУПЛЕНИЕ ТОВАРА</string>
+    <string name="main_button4">ПРОДАТЬ</string>
+    <string name="main_button5">ОТЧЕТЫ</string>
+    <string name="main_button6">СПРАВОЧНИКИ</string>
+    <string name="main_button7">НАСТРОЙКИ</string>
+    <string name="main_button8">ВЫХОД</string>
+</resources>
